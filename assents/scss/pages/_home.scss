@@ -1,0 +1,658 @@
+.home{
+    background-color:#212529 ;
+    width: 100%;
+    min-height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    justify-content: space-around;
+    
+    .yazilar{
+        max-width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        color: white;
+        gap: 20px;
+     h1{
+        font-size: 50px;
+     }
+     p{
+        font-size: 20px;
+        opacity: 0.5;
+       
+     }
+        .buttonlar{
+            display: flex;
+            
+            gap: 30px;
+           
+          
+            .getstarted{
+                background-color:#0d6efd;
+                border: 1px solid #0d6efd;
+                border-radius: 10%;
+                color: white;
+                width: 150px;
+                min-height: 50px;
+               
+                font-size: 20px;
+            }
+            .learnmore{
+                border-radius: 10%;
+                color: white;
+                width: 150px;
+                min-height: 50px;
+                border: 1px solid white;
+                background-color: #212529;
+               
+                font-size: 20px;
+
+            }
+
+        }
+       
+    }
+    .qutu{
+        width: 600px;
+       min-height: 400px;
+        background-color: #343a40;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 80px;
+        border-radius: 2%;
+        p{
+            opacity: 0.3;
+           color: white;
+        }
+    }
+    @media only screen and (max-width: 1199px) {
+        .qutu{
+            display: none;
+            
+        }
+    }
+
+}
+.iconlar{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 100%;
+    min-height: 600px;
+  
+    gap: 100px;
+    
+    
+    .yazi{
+        max-width: 300px;
+        font-size: 20px;
+      
+      
+        
+        
+    }
+    .icon34{
+        max-width: 400px;
+        
+        
+        .icon3{
+        margin-bottom: 50px;
+    }
+        
+        
+    
+}
+.icon12{
+        max-width: 400px;
+       .icon1{
+        margin-bottom: 50px;
+       }
+         
+        
+       
+       
+       
+       
+       
+    }
+    i{
+        background-color: #0d6efd;
+        color: white;
+        width: 50px;
+        min-height: 50px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+@media only screen and (max-width: 760px) {
+    .iconlar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .yazi{
+            margin-top: 70px;
+            max-width: 500px;
+        }
+        
+       
+        
+    }
+}
+
+.tomato{
+    background-color: rgb(245, 244, 244);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    p{
+        font-size: 25px;
+        max-width: 700px;
+    }
+    span{
+        font-weight: bold;
+    }
+}
+.kartlar{
+   
+    width: 100%;
+    height: 700px;
+    
+    .paraqraf{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        h4{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+            opacity: 0.8;
+        }
+    }
+    .kart123{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+       
+       
+        .kart1{
+            background-color: white;
+            width: 25%;
+            border: 1px solid white;
+            border-radius: 2%;
+            min-height: 500px;
+            
+            div{
+                background-color: silver;
+                border: 1px solid white;
+                border-radius: 2%;
+                width: 100%;
+                min-height: 200px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 40px;
+                color: black;
+                opacity: 0.8;
+              
+            }
+            
+          .kartici1{
+            display: flex;
+           
+            flex-direction: column;
+            gap: 30px;
+            font-size: 10px;
+            background-color: white;
+            justify-content: start;
+            align-items: start;
+            border: none;
+           
+            button{
+                background-color: blue;
+                margin-top: 20px;
+                color: white;
+                width: 50px;
+                margin-left: 17px;
+                font-weight: bold;
+               
+            }
+            h6{
+                font-size: 15px;
+                margin-left: 17px;
+            }
+            h3{
+                font-size: 20px;
+                margin-left: 17px;
+            }
+            p{
+                font-size: 15px;
+                margin-left: 17px;
+            }
+          }
+        }
+        .kart2{
+            background-color: white;
+            width: 25%;
+            border-radius: 2%;
+            border: 1px solid white;
+            min-height: 500px;
+            div{
+                background-color: rgb(160, 158, 158);
+                border: 1px solid white;
+            border-radius: 2%;
+                width: 100%;
+                min-height: 200px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 40px;
+                color: black;
+                opacity: 0.8;
+            }
+            .kartici2{
+                display: flex;
+               
+                flex-direction: column;
+                gap: 20px;
+                font-size: 10px;
+                background-color: white;
+                justify-content: start;
+                align-items: start;
+                border: none;
+               
+                button{
+                    background-color: blue;
+                    margin-top: 20px;
+                    color: white;
+                    width: 50px;
+                    margin-left: 17px;
+                    font-weight: bold;
+                   
+                }
+                h6{
+                    font-size: 15px;
+                    margin-left: 17px;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-left: 17px;
+                }
+                p{
+                    font-size: 15px;
+                    margin-left: 17px;
+                }
+              }
+    
+        }
+        .kart3{
+            background-color: white;
+            width: 25%;
+            border: 1px solid white;
+            border-radius: 2%;
+            min-height: 500px;
+            div{
+                background-color: rgb(98, 97, 97);
+                width: 100%;
+                min-height: 200px;
+                border: 1px solid white;
+                border-radius: 2%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 40px;
+                color: black;
+                opacity: 0.8;
+            }
+            .kartici3{
+                display: flex;
+               
+                flex-direction: column;
+                gap: 20px;
+                font-size: 10px;
+                background-color: white;
+                justify-content: start;
+                align-items: start;
+                border: none;
+               
+                button{
+                    background-color: blue;
+                    margin-top: 20px;
+                    color: white;
+                    width: 50px;
+                    margin-left: 17px;
+                    font-weight: bold;
+                   
+                }
+                h6{
+                    font-size: 15px;
+                    margin-left: 17px;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-left: 17px;
+                }
+                p{
+                    font-size: 15px;
+                    margin-left: 17px;
+                }
+              }
+    
+
+        }
+        
+    }
+
+
+    }
+@media only screen and (max-width: 760px)  {
+    .kartlar{
+   
+        width: 100%;
+        min-height: 1900px;
+        
+        .paraqraf{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+    
+            h4{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+                opacity: 0.8;
+            }
+        }
+        .kart123{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 50px;
+            margin-top: 50px;
+           
+           
+            .kart1{
+                background-color: white;
+                width: 75%;
+                border: 1px solid white;
+                border-radius: 2%;
+                min-height: 500px;
+                
+                div{
+                    background-color: silver;
+                    border: 1px solid white;
+                    border-radius: 2%;
+                    width: 100%;
+                    min-height: 200px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 40px;
+                    color: black;
+                    opacity: 0.8;
+                  
+                }
+                
+              .kartici1{
+                display: flex;
+               
+                flex-direction: column;
+                gap: 30px;
+                font-size: 10px;
+                background-color: white;
+                justify-content: start;
+                align-items: start;
+                border: none;
+               
+                button{
+                    background-color: blue;
+                    margin-top: 20px;
+                    color: white;
+                    width: 50px;
+                    margin-left: 17px;
+                    font-weight: bold;
+                   
+                }
+                h6{
+                    font-size: 15px;
+                    margin-left: 17px;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-left: 17px;
+                }
+                p{
+                    font-size: 15px;
+                    margin-left: 17px;
+                }
+              }
+            }
+            .kart2{
+                background-color: white;
+                width: 75%;
+                border-radius: 2%;
+                border: 1px solid white;
+                min-height: 500px;
+                div{
+                    background-color: rgb(160, 158, 158);
+                    border: 1px solid white;
+                border-radius: 2%;
+                    width: 100%;
+                    min-height: 200px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 40px;
+                    color: black;
+                    opacity: 0.8;
+                }
+                .kartici2{
+                    display: flex;
+                   
+                    flex-direction: column;
+                    gap: 20px;
+                    font-size: 10px;
+                    background-color: white;
+                    justify-content: start;
+                    align-items: start;
+                    border: none;
+                   
+                    button{
+                        background-color: blue;
+                        margin-top: 20px;
+                        color: white;
+                        width: 50px;
+                        margin-left: 17px;
+                        font-weight: bold;
+                       
+                    }
+                    h6{
+                        font-size: 15px;
+                        margin-left: 17px;
+                    }
+                    h3{
+                        font-size: 20px;
+                        margin-left: 17px;
+                    }
+                    p{
+                        font-size: 15px;
+                        margin-left: 17px;
+                    }
+                  }
+        
+            }
+            .kart3{
+                background-color: white;
+                width: 75%;
+                border: 1px solid white;
+                border-radius: 2%;
+                min-height: 500px;
+                div{
+                    background-color: rgb(98, 97, 97);
+                    width: 100%;
+                    min-height: 200px;
+                    border: 1px solid white;
+                    border-radius: 2%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 40px;
+                    color: black;
+                    opacity: 0.8;
+                }
+                .kartici3{
+                    display: flex;
+                   
+                    flex-direction: column;
+                    gap: 20px;
+                    font-size: 10px;
+                    background-color: white;
+                    justify-content: start;
+                    align-items: start;
+                    border: none;
+                   
+                    button{
+                        background-color: blue;
+                        margin-top: 20px;
+                        color: white;
+                        width: 50px;
+                        margin-left: 17px;
+                        font-weight: bold;
+                       
+                    }
+                    h6{
+                        font-size: 15px;
+                        margin-left: 17px;
+                    }
+                    h3{
+                        font-size: 20px;
+                        margin-left: 17px;
+                    }
+                    p{
+                        font-size: 15px;
+                        margin-left: 17px;
+                    }
+                  }
+        
+    
+            }
+            
+        }
+    
+        
+}
+}
+.mavi{
+    background-color: #0d6efd;
+    width: 80%;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    color: white;
+    border-radius: 2%;
+    border: 1px solid white;
+    p{
+        opacity: 0.5;
+    }
+    input{
+        width: 250px;
+        min-height: 35px;
+        border: none;
+        border-radius: 2%;
+    }
+    button{
+        width: 80px;
+        min-height: 35px;
+        background-color: #0d6efd;
+        color: white;
+        border: 1px white solid;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .mavi{
+        background-color: #0d6efd;
+        width: 90%;
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-around;
+        color: white;
+        border-radius: 2%;
+        border: 1px solid white;
+        p{
+            opacity: 0.5;
+        }
+        input{
+            width: 250px;
+            min-height: 35px;
+            border: none;
+            border-radius: 2%;
+        }
+        button{
+            width: 80px;
+            min-height: 35px;
+            background-color: #0d6efd;
+            color: white;
+            border: 1px white solid;
+        }
+    }
+}
+footer{
+    width: 100%;
+    min-height: 80px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    margin-top: 100px;
+    ul{
+        display: flex;
+        gap: 20px;
+        li{
+            list-style: none;
+            a{
+                color: white;
+                text-decoration: underline;
+            }
+            
+        }
+    }
+}
+@media only screen and (max-width: 569px){
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,88 @@
+.about{
+    width: 100%;
+
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 30px;
+    h1{
+        font-size: 40px;
+        max-width: 700px;
+        color: #212529;
+        
+    }
+    p{
+        font-size: 20px;
+        max-width: 700px;
+        opacity: 0.7;
+    }
+    button{
+        background-color:#0d6efd ;
+        color: white;
+        font-size: 20px;
+        width: 170px;
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 10%;
+    }
+    
+}
+.sekil1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+
+
+    width: 100%;
+    min-height: 600px;
+    color: #212529;
+  div{
+    h2{
+        font-size: 30px;
+    }
+    p{
+        max-width: 600px;
+        font-size: 20px;
+        opacity: 0.7;
+    }
+  }
+
+}
+@media only screen and (max-width: 991px){
+    .sekil1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.daireler{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    min-height: 300px;
+   img{
+   border-radius: 50%;
+   }
+   h6{
+    font-size: 20px;
+   
+   }
+p{
+    opacity: 0.8;
+}
+
+}
+@media only screen and (max-width: 991px){
+    .daireler{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

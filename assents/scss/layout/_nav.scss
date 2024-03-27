@@ -1,0 +1,60 @@
+nav{
+    color: white;
+    background-color:#212529;
+    display: flex;
+    justify-content:space-around; 
+    align-items: center; 
+    width: 100%;
+    min-height: 55px;
+    
+
+    a{
+        color: white;
+        
+    }
+    
+    h1{
+        color: white;
+    }
+    ul{
+        display: flex;
+        gap: 15px;
+        opacity: 0.7;
+
+        li{
+            list-style: none;
+            font-size: 18px;
+           
+            
+            
+            
+        }
+
+    }
+    .menu{
+        display: none;
+    }
+    @media only screen and (max-width: 991px)  {
+        .menu{
+            display: flex;
+            background-color: #212529;
+            border-radius: 15%;
+            border: 1px solid white;
+            opacity: 0.4;
+            width: 50px;
+            min-height: 40px;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        li{
+            display: none;
+        }
+
+        
+    }
+    
+}
